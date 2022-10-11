@@ -4,7 +4,7 @@ import "github.com/ipfs/go-unixfs"
 
 func mayhemit(bytes []byte) int {
 
-    _ = unixfs.FromBytes(bytes)
+    unixfs.FromBytes(bytes)
     return 0
 }
 

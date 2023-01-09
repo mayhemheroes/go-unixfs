@@ -1,4 +1,4 @@
-package fuzz
+package fuzzUnwrapData
 
 import "github.com/ipfs/go-unixfs"
 
